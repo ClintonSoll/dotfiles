@@ -83,6 +83,7 @@ alias da='dotfiles add'
 alias dc='dotfiles commit'
 alias dcm='dotfiles commit -m'
 alias dp='dotfiles push'
+alias dpu='dotfiles pull'
 
 alias c=clear
 alias u='cd ..;'
