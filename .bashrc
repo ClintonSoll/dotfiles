@@ -58,6 +58,7 @@ vp() {
 alias offrecord='history -d $(history 1)'
 alias bashrc='source ~/.bashrc'
 alias bashrce='vi ~/.bashrc'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
@@ -76,6 +77,12 @@ alias gp='git push'
 alias gu='git unstage'
 alias gco='git checkout'
 alias gb='git branch'
+
+# Dotfile git stuff
+alias da='dotfiles add'
+alias dc='dotfiles commit'
+alias dcm='dotfiles commit -m'
+alias dp='dotfiles push'
 
 alias c=clear
 alias u='cd ..;'
