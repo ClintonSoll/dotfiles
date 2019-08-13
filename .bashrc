@@ -62,10 +62,21 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 alias hg='history | grep '
-alias gp='git pull'
-alias gpu='git push'
+
+# Git stuff
 alias ga='git add'
 alias gc='git commit'
+alias gcm='git commit -m'
+alias gs='git status'
+alias gd='git diff'
+alias gf='git fetch'
+alias gm='git merge'
+alias gr='git rebase'
+alias gp='git push'
+alias gu='git unstage'
+alias gco='git checkout'
+alias gb='git branch'
+
 alias c=clear
 alias u='cd ..;'
 alias {:q!,:q,q,quit}='exit'
