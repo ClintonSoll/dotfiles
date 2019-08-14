@@ -14,14 +14,14 @@ dotfiles config --global user.email {EMAIL}
 This will prepare the server to become a host.
 
 Run an ssh-keygen and get the public key to add as a key here.
-```
+```shell
 ssh-keygen
 cat ~/.ssh/id_rsa.pub
 ```
 Copy the cat output. On the repo go to Settings > Deploy Keys > Add a Deploy Key.
 Give the key a name and paste the output from the id_rsa.pub file into the key. Check the box to allow write access for push if needed.
 
-```bash
+```shell
 dotfiles checkout master
 dotfiles pull
 ```
