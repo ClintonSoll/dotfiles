@@ -26,6 +26,33 @@ dotfiles checkout master
 dotfiles pull
 ```
 
+## Updating dotfiles repo with dotfile aliases
+
+Add file
+```shell
+da {file}
+```
+
+Commit file
+```shell
+dc {file}
+```
+
+Commit file with message
+```shell
+dcm {file}
+```
+
+Push to master
+```shell
+dp
+```
+
+Pull from master
+```shell
+dpu
+```
+
 ## How to just pull the newest dotfiles without becoming a host
 ```shell
 git clone --separate-git-dir=$HOME/.dotfiles https://github.com/ClintonSoll/dotfiles.git tmpdotfiles
